@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9809a">
+  <title>You're invited · Kimmy's 29th birthday</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="stage" id="stage">
+    <div class="pattern" aria-hidden="true"></div>
+
+    <div class="envelope-area">
+      <!-- Click the envelope, or use the buttons below, to open and close it -->
+      <div class="envelope" id="envelope">
+        <div class="env-back"></div>
+
+        <article class="letter" id="letter" aria-hidden="true">
+          <p class="greeting">You're invited</p>
+          <p class="message">A toast to 29, come raise a glass with me.</p>
+          <div class="details">
+            <p class="date">October 16 at 7:00 PM</p>
+            <p class="venue">KTV Level Up</p>
+            <p class="address">Your event address goes here</p>
+          </div>
+          <p class="signoff">with love, Kimmy</p>
+        </article>
+
+        <div class="pocket" aria-hidden="true">
+          <span class="pocket-left"></span>
+          <span class="pocket-right"></span>
+          <span class="pocket-bottom"></span>
+        </div>
+
+        <div class="flap" aria-hidden="true">
+          <span class="flap-front"></span>
+          <span class="flap-back"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="btn" id="openBtn" type="button">Open envelope</button>
+      <button class="btn" id="closeBtn" type="button" disabled>Close envelope</button>
+    </div>
+  </main>
+</body>
+</html>
